@@ -1,0 +1,23 @@
+{
+  "name": "leaflink-codetest1",
+  "version": "1.0.0",
+  "description": "Code test for representing a gif ad as html, css. Uses css-animation instead of js for changing content as it is static",
+  "main": "index.html",
+  "scripts": {
+    "autoprefixer": "./node_modules/postcss-cli/bin/postcss style.css -u autoprefixer -o style.build.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csakai/ll-test1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csakai/ll-test1/issues"
+  },
+  "homepage": "https://github.com/csakai/ll-test1#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.3",
+    "postcss-cli": "^5.0.1"
+  }
+}
