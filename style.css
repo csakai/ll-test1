@@ -1,8 +1,14 @@
+html, body {
+    font-family: 'Noto Sans', sans-serif;
+}
 .carousel-card {
     animation: no-transition 3.5s steps(2) infinite alternate;
     width: 300px;
     float: left;
     display: inline-block;
+}
+.carousel-card-header {
+    font-weight: bold;
 }
 .carousel-container {
     width: 600px;
@@ -11,6 +17,7 @@
     width: 300px;
     height: 250px;
     overflow: hidden;
+    background: #1A1243;
 }
 @keyframes no-transition {
     from {
@@ -20,6 +27,13 @@
         transform: translate(-600px, 0px);
     }
 }
-.hero, .carousel-card-header, .carousel-card-content {
+.hero, .header, .carousel-card-header, .carousel-card-content {
     text-align: center;
+    line-height: 1.2;
+    color: #F9F6FC;
 }
+
+/*
+ * logo-blue: #0476FE
+ * logo-green: #1EE0AB
+ */
