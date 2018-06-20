@@ -7,9 +7,6 @@ html, body {
     float: left;
     display: inline-block;
 }
-.carousel-card-header {
-    font-weight: bold;
-}
 .carousel-container {
     width: 600px;
 }
@@ -27,13 +24,32 @@ html, body {
         transform: translate(-600px, 0px);
     }
 }
-.hero, .header, .carousel-card-header, .carousel-card-content {
+.hero {
+    background: url(ll-logo.svg) no-repeat center;
+    height:35px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+}
+.header, .carousel-card-header, .carousel-card-content {
     text-align: center;
     line-height: 1.2;
     color: #F9F6FC;
 }
+.header, .carousel-card-header {
+    font-weight: bold;
+}
+.header {
+    font-size: 16pt;
+    margin: 0 15px;
+}
 
-/*
- * logo-blue: #0476FE
- * logo-green: #1EE0AB
- */
+.carousel-card-header {
+    font-size: 14pt;
+    margin-bottom: 0;
+}
+
+.carousel-card-content {
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0 20px;
+}
